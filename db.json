@@ -20,6 +20,20 @@
       "service": "Electrical",
       "location": "Kilimani",
       "price": 2500
+    },
+    {
+      "name": "james",
+      "service": "Plumbing",
+      "location": "Nairobi",
+      "price": 3000,
+      "id": "CK-aJVy9jDI"
+    },
+    {
+      "name": "martin",
+      "service": "Plumbing",
+      "location": "Nairobi",
+      "price": 3000,
+      "id": "g6RVhyfgYlM"
     }
   ],
   "messages": [
@@ -28,6 +42,12 @@
       "email": "JOhn@gmail.com",
       "message": "i need a plumber",
       "id": "Ke4ksrGrfZ0"
+    },
+    {
+      "name": "john",
+      "email": "john213@gmail.com",
+      "message": "Plumbing",
+      "id": "SkuqplZPF3c"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

@@ -1,4 +1,4 @@
-
+import "./App.css";
 import NavBar from "./components/NavBar.jsx";
 import Footer from "./components/Footer.jsx";
 import Services from "./components/Services.jsx";
@@ -7,6 +7,7 @@ import Home from "./pages/Home.jsx";
 import About from "./pages/About.jsx";
 import Contact from "./pages/contact.jsx";
 import ProviderDetails from "./pages/ProviderDetails.jsx";
+import AddProvider from "./pages/AddProvider.jsx";
 
 import { Routes, Route } from "react-router-dom";
 
@@ -22,6 +23,7 @@ function App() {
         <Route path="/providers/:id" element={<ProviderDetails />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/add-provider" element={<AddProvider />} />
       </Routes>
 
       <Footer />

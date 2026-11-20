@@ -3,8 +3,9 @@ function Hero() {
     <section
     id="home"
     className="hero d-flex align-items-center justify-content-center"
-    style={{ height: '100vh', backgroundColor: '#92c067' }}
+    style={{ height: "100vh", position: "relative", overflow: "hidden" }}
   >
+    <div className="hero-background"></div>
     <div className="container text-center">
       <h1 className="display-4">Welcome to Fundilink</h1>
       <h2 className="h3 mb-4">Find Trusted Home Service Providers</h2>
